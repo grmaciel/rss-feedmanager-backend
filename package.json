@@ -2,7 +2,7 @@
   "name": "podcast-backend",
   "version": "0.0.1",
   "description": "Backend of our RSS feed reader",
-  "main": "server.js",
+  "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
