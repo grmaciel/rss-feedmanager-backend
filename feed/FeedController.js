@@ -28,7 +28,7 @@ function feed(req, res, next) {
   	}
 
   	if (feeds.length == 5) {
-  		res.send(feeds)
+  		res.send({podcast: {title: 'Nerdcast', description: 'Nerds e virgens'}, episodes : feeds})
 		answered = true
   	}
 
